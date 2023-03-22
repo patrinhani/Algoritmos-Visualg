@@ -1,22 +1,22 @@
 Algoritmo "15"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Disciplina   : [Linguagem e L?gica de Programa??o]
+// Professor   : Antonio Carlos Nicolodi
+// Descri??o   : Aqui voc? descreve o que o programa faz! (fun??o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 16/03/2023
 Var
-// Seção de Declarações das variáveis 
+// Se??o de Declara??es das vari?veis
 numero:real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Se??o de Comandos, procedimento, fun??es, operadores, etc...
       escreva("Digite um numero:")
       leia (numero)
-      se numero > 0 entao
-      escreva("Este numero é positivo")
+      se (numero >= 0) entao
+      escreva(numero," é positivo")
       senao
-      escreva("Este numero é negativo")
+      escreva(numero," é negativo")
       fimse
-      
+
 
 Fimalgoritmo
